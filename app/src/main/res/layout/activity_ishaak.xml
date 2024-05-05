@@ -76,7 +76,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:padding="10dp"
-                android:text="Shirt"
+                android:text="@string/shirt"
                 android:textColor="#000000"
                 android:textSize="20sp"
                 android:textStyle="bold" />

@@ -20,7 +20,7 @@
             android:orientation="vertical">
 
 
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/imgEmpImage"
                 android:layout_width="100dp"
                 android:layout_height="80dp"
@@ -28,8 +28,8 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginBottom="10dp"
-                android:scaleType="fitXY"
-                android:src="@drawable/liyakat" />
+                android:src="@drawable/liyakat"
+                app:civ_border_width="1dp" />
 
             <TextView
                 android:id="@+id/txtEmpName"
